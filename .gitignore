@@ -1,0 +1,9 @@
+settings.py
+db.sqlite3
+NYU/
+codeRecords/
+emmySite/
+hack/ 
+tech/
+templates/
+venv/

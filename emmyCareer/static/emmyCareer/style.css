@@ -1,0 +1,565 @@
+#body {
+   min-height:100%;
+   padding:0;
+   margin:0;
+}
+
+#wrapper{
+   padding:30px 0 50px;
+   position:absolute; 
+   top:0; bottom:0; left:0; right:0;
+}
+
+#headerwrapper {
+/**
+   margin-top: -50px;
+   height: 50px; 
+**/
+}
+
+#header {
+   /*background-color:#003366;*/
+   background-color:white;
+   margin-top: -30px;
+   margin-left: 10px;
+   margin-right: 10px;
+   height:30px;
+   width:100%;
+   border-bottom: 2px solid #003366;
+   border-margin: 0;
+   border-padding: 5;
+   position: fixed;
+   /*top: 0; 
+   margin-bottom: 10px;*/
+   z-index:1;
+}
+
+#header img {
+   float:left;
+   width: 70px; 
+   height: 30px; 
+}
+
+#header .navigation-header { 
+   position:relative;
+   color:#003366;
+   vertical-align: baseline;
+   text-align:center;
+}
+
+#header .navigation-header a { 
+   font-size:1.7vw;
+   margin-left:1.5vw;
+   margin-right:1.5vw;
+   color:#003366;
+   font-family: "Arial";
+   font-weight: normal;
+   text-color:#003366;
+   text-decoration:none;
+}
+
+#rightheader {
+   text-align: right;
+   float: right;
+   font-size:1.7vw;
+}
+
+/**#language{
+   height: 20px;
+   width: 100%;
+   padding-right: 20px;
+   text-align: right;
+   font-family: "Arial";
+   font-size:17px;
+}**/
+
+h2 {
+   font-size: 3.0vw;
+   font-weight: bold;
+   color: black;
+   margin: 0;
+   padding: 20px 0;
+}
+
+h3 {
+   position: absolute;
+   margin: 0;
+   padding: 20px 0;
+}
+
+h5 {
+   font-family: "Verdana";
+   font-size: 3.0vw;
+   margin: 0;
+   padding: 30px 10px;
+   font-weight: bold;
+}
+
+p {
+   margin: 0;
+   padding: 10px 0;
+}
+
+.mainimg {
+   position: relative;
+   clear: none;
+   overflow: hidden;
+   /*background-image: url(images/mainpc_0121.png);*/
+   background-image: linear-gradient(rgba(20,255,255,0.3),rgba(255,255,255,0.3)), url(images/DSCF0165.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 80%;
+   max-width: 100%;
+   height: 85%;
+}
+
+.mainimg #maincatch {
+   padding: 70px 50px;
+   text-align: center;
+   font-size: 3.5vw;
+   font-weight: bold;
+   color: black;
+   line-height: 2.5;
+}
+
+#maindescription {
+   text-align: left;
+   font-size: 2.2vw;
+   padding: 0 20px;
+   /*margin: 20px;*/
+}
+
+#maindescription p {
+   line-height: 1.7;
+}
+
+#maindescription {
+   font-family: "Arial";
+}
+
+#topabout {
+   text-align: left;
+   /**position: relative;**/
+   clear: none;
+   overflow: hidden;
+   background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)), url(images/resume-temp.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 300px;
+   font-size: 3.5vw;
+   font-weight: bold;
+   color: black;
+}
+
+#aboutcontent {
+   min-height: 100%;
+   font-family: "Arial";
+   text-align: left;
+   /*padding: 40px 20px;*/
+   font-size: 19px;
+   line-height: 1.7;
+}
+
+#abouttitle {
+   background-image: linear-gradient(to bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url(images/DSCF0059.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 300px;
+   margin: 0;
+}
+
+#aboutExplaination {
+   margin: 0;
+   padding: 30px;
+}
+
+#resume {
+   font-family: "Arial";
+/**
+   padding-top: 40px;
+   padding-left: 20px;
+   padding-right: 20px;
+**/
+}
+
+#resumetitle {
+   background-image: linear-gradient(to bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url(images/resume-temp.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 300px;
+}
+
+#resumetop {
+   text-align: center;
+   padding: 30px 70px;
+   /*font-size: 1.7vw;*/
+   font-size: 19px;
+   line-height: 1.7;
+   /*font-weight: bold;*/
+   color: black;
+}
+
+#resumecontent {
+   text-align: center;
+   margin-left: 20px;
+   margin-right: 20px;
+   font-size: 19px;
+   line-height: 1.7;
+}
+
+#resume-explanation {
+   text-align: left;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 40px;
+   /*margin: 20px;*/
+   line-height: 1.5;
+   font-size: 18px;
+}
+
+#resume-explanation h4 {
+   text-align: left;
+}
+
+#resume-explanation a {
+   color:#003366;
+   opacity: 0.7;
+}
+
+row {
+   width: 100%;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+#resumecircle {
+   display: inline-block;
+   margin-left: 15px;
+   margin-right: 15px;
+   width: 180px;
+   height: 180px;
+   background-size: cover;
+   background-image: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url(images/circle-temp.png);
+   background-repeat: no-repeat;
+   /***
+   position: relative:
+   font-size: 2.5vw;
+   font-weight: bold;
+   color: black;
+   ***/
+}
+
+#circlecontents {
+   vertical-align: middle;
+   padding: 45px 10px;
+   font-size: 2.0vw;
+   font-weight: bold;
+   color: black;
+}
+
+#resumecontent img{
+   width: 180px;
+   height: 180px;
+   /**margin-top: 5px;
+   margin-bottom: 5px;
+   margin-left: 15px;
+   margin-right: 15px;*/
+   padding: 5px 15px;
+   float: center;
+   opacity: 0.6;
+}
+
+#resumehelp {
+   background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url(images/resume-temp.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 100%;
+   /*opacity: 0.6:*/
+}
+
+#counselling {
+/**
+   padding-top: 30px;
+   padding-bottom: 40px;
+   padding-left: 20px;
+   padding-right: 20px;
+**/
+   font-family: "Arial";
+}
+
+#counsellingtitle {
+   background-image: linear-gradient(to bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url(images/resume-temp.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 100% 300px;
+}
+
+#counselling-top h1 {
+   font-family: "Verdana";
+   font-size: 3.5vw;
+   margin-bottom: 40px;
+}
+
+#counselling-top {
+   text-align: center;
+   /**height: 200px;
+   width: 100%;**/
+   padding: 30px 60px;
+   font-size: 19px;
+   line-height: 1.7;
+}
+
+#counselling-top img {
+   float: right;
+}
+
+#counselling-top #counselling-topright {
+   position: absolute;
+   margin-right: 20px;
+   right: 20px;
+   width: 50%;
+}
+
+#counselling-top #counselling-topleft {
+   position: absolute;
+   margin-left: 20px;
+   left: 20px;
+   width: 50%;
+}
+
+#counselling-content {
+   /*margin: 20px;*/
+   font-size: 19px;
+   line-height: 1.5;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
+#counselling-content p{
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
+#counselling-content a {
+   color:#003366;
+   opacity: 0.7;
+}
+
+#purchase-success {
+   font-family: "Arial";
+   font-size: 2.0vw;
+   margin: 20px;
+   line-height: 1.5;
+}
+
+#purchase {
+   font-family: "Arial";
+   font-size: 19px;
+   /**margin: 20px;**/
+   line-height: 1.5;
+   min-height: 100%;
+}
+
+#purchaseContent {
+   padding: 0 30px;
+}
+
+.hidden {
+   display: none;
+}
+
+.unhidden {
+   display: block;
+}
+
+#inquirycontent {
+   font-family: "Arial";
+   margin-left: 20px;
+   margin-right: 20px;
+   font-size: 2.0vw;
+   min-height: 100%;
+}
+
+#inquirycontent label {
+   display: inline-block;
+   float: left;
+   clear: left;
+   width: 150px;
+}
+
+#inquirycontent input[type=text] {
+   width: 300px;
+   border:2px solid #ccc;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+}
+
+#inquirycontent input[type=submit] {
+   background-color:rgba(0,51,102,0.3);
+   border:0 none;
+   cursor:pointer;
+   -webkit-border-radius: 5px;
+   border-radius: 5px; 
+   font-family: "Arial";
+   text-color: white;
+   font-size: 18px;
+   width: 180px;
+   height: 25px;
+}
+
+#inquirycontent hr {
+   border-color: #b0b0b0;
+   opacity: 0.3;
+}
+
+#inquirycontent textarea {
+   width: 450px;
+   height: 150px;
+   border:2px solid #ccc;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+}
+
+#contactForm {
+   padding-top: 20px;
+   margin: 0;
+}
+
+#signcontent {
+   font-family: "Arial";
+   min-height: 100%;
+   /*
+   margin-bottom: 50px;
+   margin: 20px;
+   position: relative;
+   */
+   margin-left: 20px;
+   margin-right: 20px;
+   font-size: 2.0vw;
+}
+
+#signcontent input[type=text] {
+   width: 300px;
+   border:2px solid #ccc;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+}
+
+#signcontent input[type=password] {
+   width: 300px;
+   border:2px solid #ccc;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+}
+
+#signcontent input[type=submit] {
+   background-color:rgba(0,51,102,0.3);
+   border:0 none;
+   cursor:pointer;
+   -webkit-border-radius: 5px;
+   border-radius: 5px; 
+   text-color: white;
+   font-family: "Arial";
+   font-size: 18px;
+   width: 180px;
+   height: 25px;
+}
+
+#signcontent label {
+   display: inline-block;
+   float: left;
+   clear: left;
+   width: 120px;
+}
+
+#signcontent hr {
+   margin: 0;
+   padding: 15px 0;
+   border-color: #b0b0b0;
+   opacity: 0.3;
+}
+
+#signcontent a {
+   color:#003366;
+   opacity: 0.7;
+}
+
+#signcontent #sign-right {
+   position: absolute;
+   text-align: center;
+   margin-right: 20px;
+   right: 20px;
+   width: 50%;
+}
+
+#signcontent #sign-left {
+   position: absolute;
+   margin-left: 20px;
+   left: 20px;
+   width: 50%;
+}
+
+.signtable {
+   margin-left: 20px;
+   margin-right: 20px;
+   text-align: center;
+   font-size: 2.5vw;
+   color: black;
+}
+
+#userhome {
+   font-family: "Arial";
+   margin-top: 40px;
+   margin-left: 20px;
+   font-size: 2.0vw;
+}
+
+
+.maincontent {
+   /*margin: 30px 30px 30px 30px;*/
+   padding: 30px;
+   font-family: "Arial";
+}
+
+#footer {
+   font-family: "Arial";
+   background-color:black;
+   /*position: relative;*/
+   margin-bottom: -50px;
+   /**bottom: 0;
+   left: 0;
+   margin:5px;**/
+   height:50px;
+   width:100%;
+}
+
+#footer .navigation-footer { 
+   position:relative;
+   margin-left:15px;
+   margin-right:15px;
+   text-align:center;
+}
+
+#footer .navigation-footer a { 
+   font-size:1.5vw;
+   color:white;
+   margin:35px;
+   text-decoration:none;
+}
+    
+.img .textonimage{
+   /*z-index: 100*/
+   /*z-index: 2;*/
+   display: block;
+   position: absolute;
+   font-size: 1.5vw;
+   font-weight: bold;
+   width: 100%;
+   top: 30%;
+   left: 30%;
+   color: black;
+}
+
+#sample {
+   min-height:100%;
+}
